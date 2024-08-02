@@ -1,0 +1,70 @@
+body{
+    background-image: url(a4-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    align-content: center;
+    border-radius: 30px; 
+    background-color: black;
+}
+input{
+    position: relative;
+    align-content: center;
+}
+a{
+    color: olivedrab;
+}
+form{
+    align-content: center;
+    height: 500px;
+    align-content: center;
+    border-radius: 30px;
+    width: 400px;
+}
+fieldset{
+    height: 500px;
+    align-content: center;
+    width: 400px;
+    border: none;
+}
+
+button{
+    height: 37px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background:rgb(0, 0, 0);
+    color: white;
+    background-image: radial-gradient(black,orangered);
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    cursor: grab;
+    background: rgb(255, 255, 255);
+    background-image: radial-gradient(orangered,black)
+}
+input{
+    height: 37px;
+    border: none;
+    border-radius: 10px;
+}
+label{
+    color: rgb(255, 0, 255);
+    font-size: large;
+    height: 57px;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color: rgb(255, 0, 255);
+    font-size: xx-large;
+}
+p{
+    color: white;
+    font-size: larger;
+}
+/* #label{
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+} */
